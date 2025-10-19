@@ -10,13 +10,13 @@ map_1 = map_converter("D:\Programs\game_project\shit.txt")
 char = player(map_1.lloyd, {})
 while True:
     os.system("cls" if os.name == "nt" else "clear")
-    
+    #something something
     #print map
     mapstr = ""
     for row in map_1.maplist:
         mapstr += "".join(row) + "\n"
     print(mapstr)
-
+    print("hello")
     #move player
     for x in input("> "):
         time.sleep(0.3)
